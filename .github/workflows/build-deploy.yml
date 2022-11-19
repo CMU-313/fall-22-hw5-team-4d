@@ -77,7 +77,7 @@ jobs:
       run: mvn -B verify spotbugs:spotbugs
     - uses: jwgmeligmeyling/spotbugs-github-action@master
       with:
-        path: '**/spotbugsXml.xml
+        path: '**/spotbugsXml.xml'
 
 
      

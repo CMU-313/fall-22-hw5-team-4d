@@ -59,7 +59,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: badges
           force: true
-    build:
+    build_with_spot_bugs:
       runs-on: ubuntu-latest
       steps:
       - uses: actions/checkout@v2
